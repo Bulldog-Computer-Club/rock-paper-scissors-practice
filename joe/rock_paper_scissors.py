@@ -30,7 +30,7 @@ try:
         f"{GREEN_ANSI}Do you want to play in godmode? Anything other than 'yes' or 'y' will be interpreted as no. {END_ANSI}"
     ).lower()
     # :troll: 10% chance of godmode even if they say no
-    godmode = True if user_input in ("yes", "y") else random.randint(0, 9) == 0
+    godmode = user_input in ("yes", "y") or random.randint(0, 9) == 0
     print(f"Alright, let's start!\n")
 
     while True:
