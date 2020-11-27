@@ -3,7 +3,7 @@ import time
 playing = True
 
 while playing:
-    playerInput = input("What will you choose (type 'rock' || 'paper' || 'scissors')")
+    playerInput = input("What will you choose (type 'rock' || 'paper' || 'scissors')").lower()
     botInput = ""
 
     if playerInput == "rock":
