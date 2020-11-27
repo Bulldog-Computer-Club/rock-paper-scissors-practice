@@ -43,11 +43,13 @@ func main() {
 		botChoice := choices[rand.Intn(3)]
 
 		loseCase := winCases[botChoice]
-		if choice == loseCase {
+
+		switch {
+		case choice == loseCase:
 			fmt.Printf("You got absolutely destroyed by the bigbrain computer, as I chose %s versus your %s. Wanna play again?\n", botChoice, choice)
-		} else if choice == botChoice {
+		case choice == botChoice:
 			fmt.Println("Aw man, it was a tie... Let's play again.")
-		} else {
+		default:
 			fmt.Printf("You beat me, human. I chose %s but you chose %s... Now let's play again.\n", botChoice, choice)
 		}
 	}
