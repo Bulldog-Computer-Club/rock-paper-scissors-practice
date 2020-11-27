@@ -35,6 +35,9 @@ class Main {
     String cpu = options.get(index);
 
     Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter your choice, Rock, Paper or Scissors! ");
+    
     String command = input.nextLine();
 
     while (!options.contains(command)){
