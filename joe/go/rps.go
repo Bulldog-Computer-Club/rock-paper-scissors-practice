@@ -10,17 +10,17 @@ import (
 )
 
 const (
-	ChoiceRock    = "rock"
-	ChoicePaper   = "paper"
-	ChoiceScissor = "scissors"
+	ChoiceRock     = "rock"
+	ChoicePaper    = "paper"
+	ChoiceScissors = "scissors"
 
 	GreenAnsiStart = "\033[92m"
 	AnsiEnd        = "\033[0m"
 )
 
 var (
-	winCases = map[string]string{ChoiceRock: ChoiceScissor, ChoiceScissor: ChoicePaper, ChoicePaper: ChoiceRock}
-	choices  = [3]string{ChoiceRock, ChoicePaper, ChoiceScissor}
+	winCases = map[string]string{ChoiceRock: ChoiceScissors, ChoiceScissors: ChoicePaper, ChoicePaper: ChoiceRock}
+	choices  = [3]string{ChoiceRock, ChoicePaper, ChoiceScissors}
 )
 
 func main() {
@@ -30,7 +30,7 @@ func main() {
 		choice := input("Rock, paper, scissors? ")
 
 		switch choice {
-		case ChoiceRock, ChoicePaper, ChoiceScissor:
+		case ChoiceRock, ChoicePaper, ChoiceScissors:
 			// ok
 		case ".quit", "q", "stop", "exit":
 			fmt.Println("Fun playing with you, shutting down...")
