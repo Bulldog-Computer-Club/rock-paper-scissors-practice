@@ -12,7 +12,7 @@ import (
 const (
 	ChoiceRock    = "rock"
 	ChoicePaper   = "paper"
-	ChoiceScissor = "scissor"
+	ChoiceScissor = "scissors"
 
 	GreenAnsiStart = "\033[92m"
 	AnsiEnd        = "\033[0m"
