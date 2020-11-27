@@ -38,7 +38,7 @@ int main() {
 	} else if (user_choice == computer) {
 		printf("Its a Draw\n");
 	} else {
-		printf("You Lose, Computer Won\n%s beats %s\n", choices[user_choice], choices[computer]);
+		printf("You Win, Computer Lost\n%s beats %s\n", choices[user_choice], choices[computer]);
 	}
 
 	return 0;
