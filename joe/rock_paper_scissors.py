@@ -40,7 +40,7 @@ try:
         # Map user choice to enum value
         choice = get_choice(user_input)
         if choice is None:
-            print("That wasn't a valid input! Please try again.")
+            print("That wasn't a valid input! Please try again.\n")
             continue
 
         # Pick a random value
