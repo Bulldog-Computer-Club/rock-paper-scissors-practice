@@ -3,3 +3,4 @@ A rock paper scissors game in Python is simple! Here is a repository for you to 
 - Please Please remember to add comments for your code if you think that it is not easily readable 
 - For this, please add your name on your project! Thank you!
 - Push your code in one folder with your name(Well, you decide...). It's just a practice! : )
+- Have fun with everything!
