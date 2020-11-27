@@ -2,7 +2,7 @@ import sys
 import random
 
 # A tuple of tuples (computer_choice, user_choice) where the computer wins
-WIN_CASES = (("rock", "scissor"), ("scissor", "paper"), ("paper", "rock"))
+WIN_CASES = (("rock", "scissors"), ("scissors", "paper"), ("paper", "rock"))
 # Valid choices
 CHOICES = ("rock", "paper", "scissors")
 
