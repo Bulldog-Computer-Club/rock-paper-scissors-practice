@@ -1,6 +1,7 @@
 from enum import Enum
 import sys
 import random
+from typing import Union
 
 Choice = Enum("Choice", "rock paper scissors")
 
@@ -16,8 +17,14 @@ COUNTERS = {
 GREEN_ANSI = "\033[92m"
 END_ANSI = "\033[0m"
 
+MESSAGE_TIE = "🤔 Aw man, it was a tie... Let's play again.\n"
+MESSAGE_SELF_WIN = "🚀 You got absolutely destroyed by the bigbrain computer, as I chose %s versus your %s. Wanna play again?\n"
+MESSAGE_SELF_LOSE = (
+    "🤯 You beat me, human. I chose %s but you chose %s. Now let's play again.\n"
+)
 
-def get_choice(val):
+
+def get_choice(val: str) -> Union[Choice, None]:
     if val == "r" or val == "rock":
         return Choice.rock
     if val == "p" or val == "paper":
@@ -44,22 +51,14 @@ try:
             continue
 
         # Pick a random value
-        self_choice = random.choice(list(Choice))
+        bot_choice: Choice = random.choice(list(Choice))
 
-        if self_choice == choice:
+        if bot_choice == choice:
             print("🤔 Aw man, it was a tie... Let's play again.\n")
-            continue
-
-        # If our choice counters the user pick
-        if COUNTERS[self_choice] == choice:
-            print(
-                f"🚀 You got absolutely destroyed by the bigbrain computer, as I chose {self_choice.name} versus your {choice.name}. Wanna play again?\n"
-            )
-            continue
-
-        print(
-            f"🤯 You beat me, human. I chose {self_choice.name} but you chose {choice.name}. Now let's play again.\n"
-        )
+        elif COUNTERS[bot_choice] == choice:
+            print(MESSAGE_SELF_WIN.format(bot_choice.name, choice.name))
+        else:
+            print(MESSAGE_SELF_LOSE.format(bot_choice.name, choice.name))
 
 except KeyboardInterrupt:
     print("\nGood playing with you, human. I'll be shutting down now.")
