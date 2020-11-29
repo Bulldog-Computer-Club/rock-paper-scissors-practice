@@ -4,9 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RockPaperScissors {
-	private static Scanner scanner = new Scanner(System.in);
-	private static Random rand = new Random();
-	private static Choice[] choices = Choice.values();
+	private static final Scanner scanner = new Scanner(System.in);
+	private static final Random rand = new Random();
+	private static final Choice[] choices = Choice.values();
+	private static final char ansiSeparator = (char) Integer.parseInt("0001b", 16);
 
 	private static Map<Choice, Choice> losingChoices = new HashMap<>();
 
@@ -52,14 +53,14 @@ public class RockPaperScissors {
 	}
 
 	private static String input(String prompt) {
-		System.out.printf("\033[92m%s\033[0m", prompt);
+		System.out.printf("%c[92m%s%c[0m", ansiSeparator, prompt, ansiSeparator);
 		return scanner.nextLine().trim().toLowerCase();
 	}
 
 	private enum Choice {
 		ROCK("rock"), PAPER("paper"), SCISSORS("scissors");
 
-		private String choiceStr;
+		private final String choiceStr;
 
 		Choice(String choiceStr) {
 			this.choiceStr = choiceStr;
@@ -69,7 +70,7 @@ public class RockPaperScissors {
 			return choiceStr;
 		}
 
-		private static Map<String, Choice> lookup = new HashMap<>();
+		private final static Map<String, Choice> lookup = new HashMap<>();
 
 		static {
 			for (var choice : Choice.values()) {
