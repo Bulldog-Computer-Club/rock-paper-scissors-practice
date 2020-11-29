@@ -1,0 +1,11 @@
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\bin\Debug\netcoreapp3.1\csharp.exe
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\bin\Debug\netcoreapp3.1\csharp.deps.json
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\bin\Debug\netcoreapp3.1\csharp.runtimeconfig.json
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\bin\Debug\netcoreapp3.1\csharp.runtimeconfig.dev.json
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\bin\Debug\netcoreapp3.1\csharp.dll
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\bin\Debug\netcoreapp3.1\csharp.pdb
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\obj\Debug\netcoreapp3.1\csharp.csprojAssemblyReference.cache
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\obj\Debug\netcoreapp3.1\csharp.AssemblyInfoInputs.cache
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\obj\Debug\netcoreapp3.1\csharp.AssemblyInfo.cs
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\obj\Debug\netcoreapp3.1\csharp.dll
+C:\Users\Joe\Documents\Coding\projects\rock-paper-scissors-practice\joe\csharp\obj\Debug\netcoreapp3.1\csharp.pdb
