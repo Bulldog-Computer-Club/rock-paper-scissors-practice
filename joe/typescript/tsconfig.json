@@ -1,0 +1,12 @@
+{
+	"include": ["./rps.ts"],
+	"compilerOptions": {
+		"strict": true,
+		"alwaysStrict": true,
+		"noUnusedLocals": true,
+		"lib": ["ES2020"],
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+		"target": "ES2020"
+	}
+}
