@@ -1,0 +1,11 @@
+/home/elefant-i3/Downloads/git/Rust/target/debug/deps/getrandom-4bff1d751c0bd5e6.rmeta: /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/lib.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/error.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/util.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/error_impls.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/util_libc.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/use_file.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/linux_android.rs
+
+/home/elefant-i3/Downloads/git/Rust/target/debug/deps/getrandom-4bff1d751c0bd5e6.d: /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/lib.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/error.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/util.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/error_impls.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/util_libc.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/use_file.rs /home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/linux_android.rs
+
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/lib.rs:
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/error.rs:
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/util.rs:
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/error_impls.rs:
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/util_libc.rs:
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/use_file.rs:
+/home/elefant-i3/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.0/src/linux_android.rs:
